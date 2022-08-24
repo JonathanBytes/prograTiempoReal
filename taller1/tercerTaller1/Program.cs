@@ -42,8 +42,8 @@ while (true)
                 promPar = sumaPar / npares;
                 promImpar = sumaImpar / nimpar;
 
-                System.Console.WriteLine("EL promedio de los pares es " + promPar);
-                System.Console.WriteLine("El promedio de los impares es " + promImpar);
+                System.Console.WriteLine("EL promedio de los pares es: " + promPar);
+                System.Console.WriteLine("El promedio de los impares es: " + promImpar);
                 System.Console.ReadKey();
             }
             else
