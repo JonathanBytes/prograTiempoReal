@@ -15,7 +15,7 @@
         {
             int n;
             double x, suma = 0;
-            System.Console.Write("Ingrese la cantidad de iteraciones que desea: ");
+            System.Console.Write("Ingrese la cantidad de iteraciones que quiere: ");
             n = Convert.ToInt32(Console.ReadLine());
             System.Console.Write("Ingrese el valor de x a evaluar en la exponencial: ");
             x = Convert.ToDouble(Console.ReadLine());
