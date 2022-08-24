@@ -49,7 +49,6 @@ namespace parte2._5
                     vocales1++;
                 }
 
-
         }
 
             Console.WriteLine("El numero de vocales es: " + vocales1);
