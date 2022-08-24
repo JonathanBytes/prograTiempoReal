@@ -1,4 +1,5 @@
 ﻿int n, interval, tamInterval, cont = 0;
+double promedio;
 
 System.Console.Clear();
 System.Console.Write("Ingrese el tamaño del histograma: ");
@@ -14,7 +15,7 @@ for (int i = 0; i < data.Length; i++)
 
 System.Console.Write("\nIngrese el número de intervalos que desea para el histograma: ");
 interval = Convert.ToInt16(Console.ReadLine());
-double[] hist = new double[interval];
+double[] hist = new double[interval + 1];
 
 tamInterval = Convert.ToInt16((data.Max() - data.Min()) / interval);
 
@@ -40,3 +41,5 @@ for (int i = 0; i < hist.Length; i++)
     interval = interval + tamInterval;
 }
 
+promedio = data.Average();
+System.Console.WriteLine("El promedio de los datos es: {0}", promedio);
