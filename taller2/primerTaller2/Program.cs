@@ -67,7 +67,7 @@ public class Program
 
 
             Console.Write("Seleccione Opcion :");
-            opcion = int.Parse(Console.ReadLine());
+            opcion = int.Parse(System.Console.ReadLine());
 
             switch (opcion)
             {
@@ -93,9 +93,6 @@ public class Program
                     {
                         Console.WriteLine("No se puede realizar la operación");
                     }
-
-
-
                     break;
 
 
@@ -147,18 +144,8 @@ public class Program
                     {
                         Console.WriteLine("No se pueden multiplicar las matrices");
                     }
-
-
-
                     break;
-
-
             }
-
-
-
-
-
         } while (opcion != 0);
     }
 }
